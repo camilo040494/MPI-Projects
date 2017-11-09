@@ -6,7 +6,7 @@ apt-get install gcc g++
 wget https://www.open-mpi.org/software/ompi/v3.0/downloads/openmpi-3.0.0.tar.gz
 tar -xzvf openmpi-3.0.0.tar.gz
 cd  openmpi-3.0.0
-./configure -prefix=/location/to/install
+./configure --prefix=/location/to/install
 make all install
 
 //environment variables (in bashrc or bash_profile or inside /etc/profile.d/)
